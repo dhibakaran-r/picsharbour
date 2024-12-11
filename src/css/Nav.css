@@ -1,0 +1,345 @@
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 1rem; */
+    width: 10%;
+}
+.brand{
+    display: none;
+    word-break: break-all;
+    letter-spacing: 2px;
+}
+.brand .f{
+    color: red;
+}
+.brand .s{
+    color: blue;
+}
+/* .icon img{
+    width: 50px;
+    border-radius: 18%;
+} */
+.nav-sec{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 5rem;
+    /* background-image: url(../images/pinkbg.png); */
+    /* background-color: #D8BFD8; */
+    background-color: #ffffff;
+    border-bottom: 1px solid #E6E6FA;
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+    z-index: 10;
+
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-between ;
+    gap: 3rem;
+    position: relative;
+    right: 2rem;
+}
+
+.nav-items li{
+    list-style: none;
+    color: #0a325e;
+    font-size: 18px;
+}
+
+.nav-items li:hover{
+    color: #165fad;
+}
+
+.bar{
+    display: none;
+}
+span.search-sec {
+    width: 21.3rem;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.search {
+    padding: 0.5rem 3rem 0.5rem 1.5rem;
+    border: none;
+    font-size: 22px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #BAB2B5;
+    color: gray;
+}
+.search-sec span {
+    position: relative;
+    right: 38px;
+    bottom: 0px;
+    color: gray;
+    font-size: 24px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+/* .search-sec span{
+    position: relative;
+    right: 36px;
+    top: 3px;
+    background: #EEE2DC;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-left: 1px solid #BAB2B5;
+    border-right: 1px solid #BAB2B5;
+    padding: 6px 10px 4px 10px;
+    cursor: pointer;
+} */
+/* .search{
+    padding: 0.5rem 2.5rem 0.5rem 1.5rem;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    border: 1px solid #BAB2B5;
+} */
+.user{
+    display: none;
+}
+.user-block{
+    width: 14rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.login{
+    display: flex;
+    background-color: #14A76C;
+    color: #fff;
+    transition: 0.5s;
+}
+.login:hover{
+    transition: 1s;
+    transform: scale(0.95);
+    background-color:#fff;
+    color:#14A76C;
+}
+.signin{
+    display: flex;
+    background-color: #FF652F;
+    color: #fff;
+}
+.signin:hover{
+    transition: 1s;
+    transform: scale(0.95);
+    background-color:#fff;
+    color:#FF652F;
+}
+.login-icon{
+    position: relative;
+    bottom: 1px;
+    left: 10px;
+    font-size: 22px;
+}
+.sign-icon{
+    position: relative;
+    top: 2px;
+    left: 10px;
+    font-size: 18px;
+}
+.design{
+    border: 1px solid #BAB2B5;
+    padding: 5px 1rem 0px 1rem;
+    border-radius: 5px;
+    cursor: pointer;   
+}
+
+@media screen and (min-width:426px) and (max-width:768px){
+    .nav-sec {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #EDC7B7;
+        width: 100%;
+        height: 3rem;
+    }
+
+    .nav-items {
+        display: none;
+    }
+    .bar{
+        display: block;
+        position: relative;
+        right: 2rem;
+    }
+    .design {
+        border: 1px solid #BAB2B5;
+        padding: 2px 10px 0px 5px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .login-icon {
+        position: relative;
+        bottom: 0px;
+        left: 6px;
+        font-size: 19px;
+    }
+
+    .sign-icon {
+        position: relative;
+        top: 3px;
+        left: 5px;
+        font-size: 15px;
+    }
+
+    span.search-sec {
+        position: relative;
+        left: 4rem;
+    }
+
+    .user-block {
+        width: 10rem;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        left: 2rem;
+    }
+    
+    .user{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:376px) and (max-width:425px){
+    .nav-sec {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #EDC7B7;
+        width: 100%;
+        height: 3rem;
+    }
+
+    .nav-items {
+        display: none;
+    }
+    .bar{
+        display: block;
+        position: relative;
+        right: 0rem;
+    }
+    .design {
+        border: 1px solid #BAB2B5;
+        padding: 2px 10px 0px 5px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .login-icon {
+        position: relative;
+        bottom: 0px;
+        left: 6px;
+        font-size: 19px;
+    }
+
+    .sign-icon {
+        position: relative;
+        top: 3px;
+        left: 5px;
+        font-size: 15px;
+    }
+
+    span.search-sec {
+        position: relative;
+        left: 1rem;
+    }
+
+    .user-block {
+        display: none;
+    }
+
+    .user {
+        display: block;
+        font-size: 22px;
+        position: relative;
+        top: 0px;
+        border: 1px solid purple;
+        padding: 3px 5px 0px 5px;
+        border-radius: 50%;
+        color: darkslateblue;
+        cursor: pointer;
+    }
+
+
+}
+
+@media screen and (min-width:0px) and (max-width:375px){
+    .nav-sec {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #EDC7B7;
+        width: 100%;
+        height: 3rem;
+    }
+
+    .nav-items {
+        display: none;
+    }
+    .bar{
+        display: block;
+        position: relative;
+        left: 6px;
+        font-size: 20px;
+}
+    .design {
+        border: 1px solid #BAB2B5;
+        padding: 2px 10px 0px 5px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .login-icon {
+        position: relative;
+        bottom: 0px;
+        left: 6px;
+        font-size: 19px;
+    }
+
+    .sign-icon {
+        position: relative;
+        top: 3px;
+        left: 5px;
+        font-size: 15px;
+    }
+
+    .search {
+        width: 8rem;
+    }
+
+    span.search-sec {
+        position: relative;
+        left: 28px;
+        bottom: 1px;
+    }
+
+    .user-block {
+        display: none;
+    }
+
+    .user {
+        display: block;
+        font-size: 22px;
+        position: relative;
+        top: 0px;
+        border: 1px solid purple;
+        padding: 3px 5px 0px 5px;
+        border-radius: 50%;
+        color: darkslateblue;
+        cursor: pointer;
+    }
+
+
+}

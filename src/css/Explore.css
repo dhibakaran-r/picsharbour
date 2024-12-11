@@ -1,0 +1,119 @@
+section.Explore-container {
+    position: relative;
+    /* top: 32rem; */
+    height: 60rem;
+
+}
+
+.explore-head {
+    position: relative;
+    bottom: 59rem;
+    float: left;
+}
+
+.explore-tag {
+    position: relative;
+    left: 8rem;
+    color: indigo;
+}
+
+.explore-details {
+    position: relative;
+    bottom: 45rem;
+    left: 6rem;
+    font-size: 26px;
+    width: 80%;
+    display: flex;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 1.4444;
+    color: lightgoldenrodyellow;
+    align-items: center;
+    padding: 2rem;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.4px);
+    -webkit-backdrop-filter: blur(2.4px);
+    border: 1px solid rgba(255, 255, 255, 0.51);
+    border-style: inset;
+    transition: 2s;
+}
+
+.Explore {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    position: relative;
+    bottom: 3rem;
+}
+
+.explore-image-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.block-image {
+    width: 40%;
+    /* border: 1px solid gray; */
+    padding: 8px;
+    position: relative;
+    left: 2rem;
+}
+
+.lines {
+    padding: 1rem;
+    width: 70%;
+}
+
+h2.line-heading {
+    font-size: 40px;
+    letter-spacing: 8px;
+    position: relative;
+    left: 1rem;
+}
+
+p.line-body {
+    width: 95%;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 1.8888;
+    position: relative;
+    left: 1rem;
+}
+
+.explore-image-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-direction: row-reverse;
+}
+
+.explore-image-2 .block-image{
+    left: -2rem;
+}
+
+.explore-bg{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 5rem;
+}
+
+.sub-head {
+    position: relative;
+    right: 8rem;
+    top: 3rem;
+    font-size: 22px;
+    color: gray;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
