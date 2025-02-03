@@ -1,6 +1,5 @@
-import "../../css/App.css";
 import { FaBars } from "react-icons/fa6";
-import pink from "../images/pink.png";
+import pink from "../assets/images/pink.png";
 
 // import { icon } from '@fortawesome/fontawesome-svg-core/import.macro'
 const Design = () => {

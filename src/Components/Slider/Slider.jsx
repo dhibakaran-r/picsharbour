@@ -1,10 +1,7 @@
-import "../../css/Style.css";
-import "../../css/Picture.css";
-import "../../css/slid.css";
-import img1 from "../../images/galaxy-1.jpg";
-import img2 from "../../images/London.jpg";
-import img3 from "../../images/mountain.jpg";
-import img4 from "../../images/solar.jpg";
+import img1 from "../../assets/images/galaxy-1.jpg";
+import img2 from "../../assets/images/London.jpg";
+import img3 from "../../assets/images/mountain.jpg";
+import img4 from "../../assets/images/solar.jpg";
 
 const Slider = () => {
   const sliderDatas = [
@@ -40,7 +37,7 @@ const Slider = () => {
     //     <h4 className="title-tag">Frame the beauty you see</h4>
     //   </div>
 
-      <section class="carousel">
+      <section class="carousel block w-full h-96">
           <ol class="carousel__viewport">
           {sliderDatas.map((sliderDatas) => (
            <li class="carousel__slide">

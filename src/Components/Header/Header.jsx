@@ -1,15 +1,14 @@
-// import React from "react";
-import "../../css/Header.css";
-import bg from "../../images/flintro.jpg";
+// import bg from "../assets/images/flintro.jpg";
+import bg from "../../assets/images/hero.png";
 
 const Header = () => {
   return (
-    <section className="section intro" id="home">
-      <div className="background">
-        <img src={bg} alt="intro"></img>
+    <section className="w-full relative h-40 p-4 mt-80 flex justify-around items-center" id="home">
+      <div className="w-1/4  rounded-full">
+        <img src={bg} alt="intro" className=""></img>
       </div>
-      <div className="head">
-        <h1 className="content">
+      <div className="head w-3/5 p-8 flex items-center justify-center shadow-lg">
+        <h1 className="text-xl tracking-widest text-white font-semibold">
           Welcome to our vibrant online gallery, where visual storytelling comes
           to life. Immerse yourself in a curated collection of captivating
           images that span the spectrum of artistry, culture, and emotion. From

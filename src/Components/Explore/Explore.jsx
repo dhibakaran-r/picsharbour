@@ -1,9 +1,7 @@
-import "../../css/Style.css";
-import "../../css/Explore.css";
-import bg from "../../images/Ocean.jpg";
-import image from "../../images/image.jpg";
-import wallpaper from "../../images/wallpaper.jpg";
-import background from "../../images/background.jpg";
+import bg from "../../assets/images/Ocean.jpg";
+import image from "../../assets/images/image.jpg";
+import wallpaper from "../../assets/images/wallpaper.jpg";
+import background from "../../assets/images/background.jpg";
 import { GiArmoredBoomerang } from "react-icons/gi";
 
 const Explore = () => {

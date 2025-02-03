@@ -1,0 +1,7 @@
+.search_input{
+    @apply w-full text-lg text-gray py-1 ps-4 pe-12 border border-borderlg rounded-lg outline-none;
+}
+
+.search_icon{
+    @apply px-4 py-2 relative flex justify-center items-center right-9 bottom-0 text-gray border border-borderlg bg-borderlg text-xl rounded-r-lg cursor-pointer;
+}

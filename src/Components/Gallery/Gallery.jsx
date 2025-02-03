@@ -1,9 +1,7 @@
-// import './Style.css'
-// import './Gallery.css'
-import img1 from "../../images/Animal.jpg";
-import img2 from "../../images/London.jpg";
-import img3 from "../../images/mountain.jpg";
-import img4 from "../../images/solar.jpg";
+import img1 from "../../assets/images/Animal.jpg";
+import img2 from "../../assets/images/London.jpg";
+import img3 from "../../assets/images/mountain.jpg";
+import img4 from "../../assets/images/solar.jpg";
 
 const Gallery = () => {
   const galleryDatas = [

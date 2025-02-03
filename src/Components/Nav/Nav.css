@@ -1,0 +1,57 @@
+/* --- nav --- */
+
+@import '../../App.css';
+
+.navContainer{
+    @apply fixed top-0 w-full p-4 bg-bgwhite border-b border-b-wlg flex flex-col gap-4 shadow-sm z-10;
+}
+
+.navBlock_1{
+    @apply flex justify-between items-center bg-bgwhite;
+}
+
+.navBlock_1 .nav_icon{
+    @apply  w-32 md:w-60 flex justify-center items-center border-r border-r-wlg;
+}
+
+.navButtons{
+    @apply flex border border-lggray rounded-full;
+}
+
+.btnstyle{
+    @apply flex items-center justify-center gap-2 py-1 px-3 xl:py-2 xl:px-4 font-semibold duration-200 hover:text-white cursor-pointer;
+}
+
+.login_btn{
+    @apply text-successlg hover:bg-successlg rounded-s-full border-r border-r-lggray;
+}
+
+.join_btn{
+    @apply text-danger hover:bg-danger rounded-r-full border-l border-l-lggray;
+}
+
+.navBlock_2{
+    @apply  flex md:hidden justify-center items-center;
+}
+
+.nav_menu{
+    @apply flex justify-center items-center gap-6 xl:gap-12;
+}
+
+.nav_menu_mobile{
+    @apply flex flex-col justify-center items-center gap-6 xl:gap-12;
+}
+
+.nav_menu_items{
+    @apply duration-100 font-semibold text-primgray hover:text-sec;
+}
+
+.design{
+    border: 1px solid #BAB2B5;
+    padding: 5px 1rem 0px 1rem;
+    border-radius: 5px;
+    cursor: pointer;   
+}
+
+
+/* --- nav end --- */

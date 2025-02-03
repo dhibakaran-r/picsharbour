@@ -1,13 +1,11 @@
-import "../../css/Style.css";
-import "../../css/Category.css";
-import img1 from "../../images/Animal2.jpg";
-import img2 from "../../images/Nature.jpg";
-import img3 from "../../images/motor.jpg";
-import img4 from "../../images/birds.jpg";
-import img5 from "../../images/Fantasy.jpg";
-import img6 from "../../images/Digital.jpg";
-import img7 from "../../images/Planet2.jpg";
-import img8 from "../../images/flower.jpg";
+import img1 from "../../assets/images/Animal2.jpg";
+import img2 from "../../assets/images/Nature.jpg";
+import img3 from "../../assets/images/motor.jpg";
+import img4 from "../../assets/images/birds.jpg";
+import img5 from "../../assets/images/Fantasy.jpg";
+import img6 from "../../assets/images/Digital.jpg";
+import img7 from "../../assets/images/Planet2.jpg";
+import img8 from "../../assets/images/flower.jpg";
 import Morebtn from "../../utils/Morebtn";
 
 const Category = () => {
